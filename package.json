@@ -1,59 +1,102 @@
 {
-  "name": "@shoutem/animation",
-  "version": "0.11.1",
-  "description": "Shoutem Animation Library",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:shoutem/animation.git"
+  "_args": [
+    [
+      {
+        "raw": "@shoutem/animation@~0.11.0",
+        "scope": "@shoutem",
+        "escapedName": "@shoutem%2fanimation",
+        "name": "@shoutem/animation",
+        "rawSpec": "~0.11.0",
+        "spec": ">=0.11.0 <0.12.0",
+        "type": "range"
+      },
+      "/Users/jameswoods/Desktop/Developer/mojavie-native/node_modules/@shoutem/ui"
+    ]
+  ],
+  "_from": "@shoutem/animation@>=0.11.0 <0.12.0",
+  "_id": "@shoutem/animation@0.11.0",
+  "_inCache": true,
+  "_location": "/@shoutem/animation",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/animation-0.11.0.tgz_1493654700186_0.27833651821129024"
+  },
+  "_npmUser": {
+    "name": "shoutem-manager",
+    "email": "npm@shoutem.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@shoutem/animation@~0.11.0",
+    "scope": "@shoutem",
+    "escapedName": "@shoutem%2fanimation",
+    "name": "@shoutem/animation",
+    "rawSpec": "~0.11.0",
+    "spec": ">=0.11.0 <0.12.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@shoutem/ui"
+  ],
+  "_resolved": "https://registry.npmjs.org/@shoutem/animation/-/animation-0.11.0.tgz",
+  "_shasum": "b3b0d3b39a3a610c81cd3cd79857dc21c071faa6",
+  "_shrinkwrap": null,
+  "_spec": "@shoutem/animation@~0.11.0",
+  "_where": "/Users/jameswoods/Desktop/Developer/mojavie-native/node_modules/@shoutem/ui",
+  "bugs": {
+    "url": "https://github.com/shoutem/animation/issues"
   },
   "dependencies": {
     "hoist-non-react-statics": "^1.2.0",
     "lodash": "^4.15.0"
   },
-  "peerDependencies": {
-    "react": "16.0.0-alpha.13",
-    "react-native": ">=0.46.1",
-    "prop-types": "^15.5.10"
+  "description": "Shoutem Animation Library",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "b3b0d3b39a3a610c81cd3cd79857dc21c071faa6",
+    "tarball": "https://registry.npmjs.org/@shoutem/animation/-/animation-0.11.0.tgz"
   },
+  "gitHead": "710c809bd6e2f797cd471d2154556d4866778ae0",
+  "homepage": "http://http://shoutem.github.io/docs/ui-toolkit/animation/introduction",
   "keywords": [
     "React",
     "Native",
     "Animation"
   ],
-  "homepage": "http://http://shoutem.github.io/docs/ui-toolkit/animation/introduction",
-  "bugs": {
-    "url": "https://github.com/shoutem/animation/issues"
-  },
   "license": "BSD-3-Clause",
+  "main": "index.js",
   "maintainers": [
     {
-      "email": "bruna.andjelic@gmail.com",
-      "name": "bAndelic"
+      "name": "mrbr",
+      "email": "lbracano@gmail.com"
     },
     {
-      "email": "belma.dzi@gmail.com",
-      "name": "morrigan"
+      "name": "shoutem-manager",
+      "email": "npm@shoutem.com"
     },
     {
-      "email": "luka.bracanovic@shoutem.com",
-      "name": "MrBr"
+      "name": "sohotsoup",
+      "email": "3.14wee@gmail.com"
     },
     {
-      "email": "ivan@shoutem.com",
-      "name": "SoHotSoup"
-    },
-    {
-      "email": "tomislav.tenodi@shoutem.com",
-      "name": "tenodi"
-    },
-    {
-      "email": "vladimir@shoutem.com",
-      "name": "Vunovati"
-    },
-    {
-      "email": "zeljko@shoutem.com",
-      "name": "zrumenjak"
+      "name": "vunovati",
+      "email": "vladimir.adamic@gmail.com"
     }
-  ]
+  ],
+  "name": "@shoutem/animation",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-native": ">=0.28.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shoutem/animation.git"
+  },
+  "scripts": {},
+  "version": "0.11.0"
 }

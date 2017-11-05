@@ -1,9 +1,7 @@
 import React, {
-  Component,
+  Component
 } from 'react';
-
 import PropTypes from 'prop-types';
-
 import {
   View,
   PanResponder,
@@ -101,7 +99,7 @@ export default function makeZoomable(ComponentToBeDecorated) {
         onStartShouldSetPanResponderCapture: () => true,
         onMoveShouldSetPanResponder: () => true,
         onMoveShouldSetPanResponderCapture: () => true,
-        onPanResponderGrant: () => { },
+        onPanResponderGrant: () => {},
         onPanResponderMove: (evt, gesture) => {
           const touches = evt.nativeEvent.touches;
           const touch1 = touches[0];
@@ -132,7 +130,7 @@ export default function makeZoomable(ComponentToBeDecorated) {
             isMoving: false,
           });
         },
-        onPanResponderTerminate: () => { },
+        onPanResponderTerminate: () => {},
         onShouldBlockNativeResponder: () => true,
       });
     }
